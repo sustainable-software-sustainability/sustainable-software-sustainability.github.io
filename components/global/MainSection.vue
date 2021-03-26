@@ -6,14 +6,14 @@
           <div class="col-lg-5">
             <div class="banner-text">
               <h3>{{ content.subtitle }}</h3>
-              <h2 style="text-transform: initial;">{{ content.title }}</h2>
+              <h2 style="text-transform: initial">{{ content.title }}</h2>
               <nuxt-content :document="content" />
               <a v-scroll-to="content.link" href="#" title="">{{ content.linkText }}</a>
             </div>
           </div>
           <div class="col-lg-6">
             <div class="banner-imgs">
-              <img src="img/look.webp" />
+              <img src="~/assets/img/look.webp" />
             </div>
           </div>
         </div>
